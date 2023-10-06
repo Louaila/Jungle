@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*******font
+************/
+@font-face {
+    font-family: 'Montserrat Subrayada';
+    src: url('../font/MontserratSubrayada-Bold.woff2') format('woff2'),
+        url('../font/MontserratSubrayada-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Subrayada';
+    src: url('../font/MontserratSubrayada-Regular.woff2') format('woff2'),
+        url('../font/MontserratSubrayada-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/********fin font****/
+
+header{
+    height: 100vh;
+    background: url(../img/chuttersnap-9G1kXjqOq4U-unsplash\(1\).jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    
+
+}
+header nav{
+    position: fixed;
+    font-size: 16px;
+     top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0,0,0,1);
+    margin: 15px;
+    
+
+    
+}
+
+header nav ul {
+    display: flex; 
+
+}
+
+header nav ul li {
+       margin : 0 10px;
+
+    
+}
+header nav ul li a{
+
+    
+    color: white;
+    text-transform: uppercase;
+  
+}
+
+
+header h1{
+
+    color: white;
+    font-size:  200px;
+}
+
+
+
+main {
+    text-transform: capitalize;
+    
+}
+
+
+.haut >div{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.haut{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.haut p{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+.haut div>img{
+
+    width: 100px;
+    margin: 25px;
+
+    border-radius: 50%;
+
+}
+.bas{
+    
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #EDE6DD;
+
+}
+
+.bas>div{
+    width: 40%;
+
+}
+.bas>div img{
+    width: 100%;
+
+}
+
+
+footer{
+
+    padding-top: 170px;
+    padding-bottom: 170px;
+    text-align: center;
+    text-transform: uppercase;
+    
+
+
+}
+
+
+/*********************
+responsive
+*****/
